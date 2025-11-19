@@ -1,0 +1,83 @@
+.header{
+
+  padding: 1rem 10rem;
+}
+
+.Navbar{
+display: flex;
+flex-direction: row;
+color: var(--font-color);
+justify-content: space-evenly;
+cursor: pointer;
+align-items: center;
+gap: 20px;
+
+}
+
+.zomatoLogopng{
+  height: 30px;
+  width: 150px;
+
+
+}
+.searchBar{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 600px;
+  gap: 30px;
+
+}
+.loc{
+  display: flex;
+  gap:2px;
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+.locationSvg,.SearchBar{
+  width: 20px;
+  height: 20px;
+
+}
+.search{
+  display: flex;
+  gap: 10px;
+}
+
+.loginButton{
+gap: 20px;
+margin-left: 15px ;
+ cursor: pointer;
+ display: flex;
+ padding-left: 12px;
+
+}
+
+.btn{
+ font-size: 1.2rem;
+ cursor: pointer;
+ background-color: transparent;
+ outline: none;
+ border: none;
+ font-weight: 100;
+
+}
+
+.btn:hover{
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+
+  .header{
+    padding: 2px;
+    display: flex;
+  }
+
+
+}
